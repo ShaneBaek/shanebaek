@@ -1,0 +1,221 @@
+/*///// Responsive //////*/
+@media only screen and (min-width: 1663px) {
+    #projects {
+      margin: -110px 0 -50px 0;
+      text-align: center;
+      /*background: url(../images/back2-8.jpg);*/
+      background: url(../images/29.jpg);
+      padding: 110px 0 700px 0;
+    }
+
+    #projects a.buddy {
+      display: inline-block;
+      width: 350px;
+      height: 467px;
+      text-indent: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+      border-radius: 10%; 
+      border: 7px solid white;
+    }
+
+    a.bari, a.foodicon, a.shadow {
+      display: inline-block;
+      width: 350px;
+      height: 467px;
+      text-indent: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+      border-radius: 10%;
+      margin-left: 70px;
+      border: 7px solid white;
+    }
+
+    a.buddy {
+      background: url(../images/buddy2.jpg) no-repeat;
+    }
+
+    a.bari {
+      background: url(../images/Bari2.jpg) no-repeat;
+    }  
+
+    a.foodicon {
+      background: url(../images/foodicon2.jpg) no-repeat;
+    } 
+
+    a.shadow {
+      background: url(../images/shadow2.jpg) no-repeat;
+    } 
+
+  .color {
+    background: rgb(2202,220,150);
+    padding: 30px 5px 60px 5px;
+    border-top: 6px solid rgb(246,196,195);
+    /*position: absolute;
+    bottom: 0;*/
+   }
+   
+   p {
+    font-size: 2em;
+   }
+ }
+
+@media only screen and (min-width: 1400px) {
+     
+    #projects a.buddy {
+      display: inline-block;
+      width: 250px;
+      height: 334px;
+      text-indent: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+      border-radius: 10%; 
+      border: 7px solid white;
+    }
+
+    a.bari, a.foodicon, a.shadow {
+      display: inline-block;
+      width: 250px;
+      height: 334px;
+      text-indent: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+      border-radius: 10%;
+      margin-left: 70px;
+      border: 7px solid white;
+    }
+
+    a.buddy {
+      background: url(../images/buddy3.jpg) no-repeat;
+    }
+
+    a.bari {
+      background: url(../images/Bari3.jpg) no-repeat;
+    }  
+
+    a.foodicon {
+      background: url(../images/foodicon3.jpg) no-repeat;
+    } 
+
+    a.shadow {
+      background: url(../images/shadow3.jpg) no-repeat;
+    } 
+
+}
+
+@media only screen and (max-width: 950px) {
+#social {
+   display: none;
+  }
+
+ .menubar a.menu-icon {
+  display: block;
+  float: right;
+  font-size: 3em;
+  margin-right: 40px;
+  margin-top: -170px;
+  width: auto;
+  z-index: 8;
+  }
+
+  #social a {
+  clear: both;
+  margin-top: 120px;
+ }
+}
+
+@media only screen and (max-width: 917px) {
+  .shane {
+   font-size: 4em;
+  }
+}
+
+@media only screen and (max-width: 852px) {
+  .shane {
+      font-size: 3.5em;
+   }
+
+   h1 {
+   	  font-size: 1.5em;
+   }
+
+   h1 .shane {
+   	  margin-left: 3px;
+   }
+   
+  .menubar a.menu-icon {
+  margin-top: -140px;
+  }
+  
+  #social a {
+  clear: both;
+  margin-top: 90px;
+ }
+}
+
+@media only screen and (max-width: 837px) { 
+  #projects a.buddy {
+  margin-left: 70px;
+  }
+}
+
+@media only screen and (max-width: 679px) { 
+  #projects a.buddy, a.bari, a.foodicon, a.shadow  {
+  margin: 0px;
+  }
+}
+
+@media only screen and (max-width: 650px) { 
+ .shane {
+  font-size: 3em;
+  margin-top: 0px;  
+ }
+ .menubar a.menu-icon {
+  margin-top: -120px;
+  font-size: 2em;
+  }
+
+  #social a {
+  clear: both;
+  margin-top: 70px;
+  }
+}
+
+@media only screen and (max-width: 490px) {  
+  h1 {
+   font-size: 1em;
+  }
+  .menubar a.menu-icon {
+  margin-top: -100px;
+  font-size: 2em;
+  }
+  
+  #social a {
+  clear: both;
+  margin-top: 30px;
+ }
+
+}
+
+@media only screen and (max-width: 400px) {  
+  p.shane {
+   margin-top: 0;  
+ }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

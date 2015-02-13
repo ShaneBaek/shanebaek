@@ -1,0 +1,26 @@
+#turtle-image {
+  text-align: center;
+  margin-top: 250px;
+}
+
+a.turtle {
+  display: inline-block;
+  height: 180px;
+  width: 180px;
+  background: url(../images/turtle3.jpg) no-repeat; 
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  border-radius: 50%; 
+  border: 1.5px solid grey;
+}
+
+h2 {
+	font-family: 'Lobster', cursive;
+  font-weight: 100;
+}
+
+
+a.turtle { background-position: -30px -20px; }
+a.turtle:hover { background-position: px px; }
+a.turtle:active { background-position: px px; }

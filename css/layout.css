@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  padding: 0;
+  /*background: url(../images/shan-baek1.jpg) no-repeat;
+  background-size: cover; */
+}
+
+.light-fade {
+  background: #efefef; /* Old browsers */
+  background: -moz-linear-gradient(top,  #efefef 0%, #ffffff 24%, #ffffff 68%, #dddddd 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#efefef), color-stop(24%,#ffffff), color-stop(68%,#ffffff), color-stop(100%,#dddddd)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #efefef 0%,#ffffff 24%,#ffffff 68%,#dddddd 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #efefef 0%,#ffffff 24%,#ffffff 68%,#dddddd 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #efefef 0%,#ffffff 24%,#ffffff 68%,#dddddd 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #efefef 0%,#ffffff 24%,#ffffff 68%,#dddddd 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efefef', endColorstr='#dddddd',GradientType=0 ); /* IE6-9 */
+  margin: 0;
+}
+
+.shane {
+  color: rgb(58, 24, 53);
+  text-decoration: none;
+  cursor: auto;
+  font-size: 4em;
+  font-family: 'Playfair Display', serif;;
+  margin-bottom: 10px;
+  border-bottom: 20px double rgb(81, 80, 67);
+}
+
+h1 {
+  color: white;
+  margin-top: 0;
+}
+
+p {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.menubar a.menu-icon {
+  display: none;
+}
+
+.intro { 
+  width: 100%;
+  display: block;
+  min-width: 400px;
+  color: rgb(202,120,150);
+  padding-top: 10px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.smile-change-color {
+  color: rgb(82,93,117);
+}
+
+a.smiley-face.smile-change-face {
+  background-position: 0 -44px;
+}
+
+.smiley-face {  
+  border-radius: 50%;
+  z-index: 4;  
+}
+
+a.smiley-face {
+  display: block;
+  height: 50px;
+  width: 50px;
+  background: url(../images/smiley-face.jpg) no-repeat; 
+}
+
+.color {
+  background: rgb(2202,220,150);
+  padding: 20px 5px 30px 5px;
+  border-top: 6px solid rgb(246,196,195);
+  /*position: absolute;
+  bottom: 0;*/
+}
+
+footer {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgb(192, 133, 166);
+  padding: 10px;
+  font-weight: lighter;
+  /*position: fixed;
+  bottom: 0;*/
+}
+
+.stripe {
+  border-bottom: 20px double #fcc;
+  margin-bottom: 1px;
+  /*bottom: 0;*/
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+/*////// Social //////*/
+#social {
+  position: absolute;
+  top: 80px;
+  right: 5px;
+  width: 240px;
+  z-index: 2;
+}
+
+#social a {
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  border-radius: 30%;
+}
+
+a.fbook, a.twit, a.pterest {
+  background: url(../images/1013-icons-37.jpg) no-repeat;
+  z-index: 5;
+} 
+
+a.fbook { background-position: -199px -79px; }
+a.fbook:hover { background-position: -200px -132px; }
+a.fbook:active { background-position: -200px -240px; }
+
+a.twit { background-position: -35px -78px; }
+a.twit:hover { background-position: -35px -132px; }
+a.twit:active { background-position: -35px -241px; }
+
+a.pterest { background-position: -90px -78px; }
+a.pterest:hover { background-position: -92px -133px; }
+a.pterest:active { background-position: -92px -240px; }
+
