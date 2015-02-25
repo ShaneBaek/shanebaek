@@ -1,3 +1,18 @@
+.sh-back {
+  background: rgb(42, 125, 144);
+  text-align: center;
+  border-bottom: 10px double white;
+  border-top: 2px solid white;
+}
+
+#sh {
+  font-size: 90px;
+  margin: 0 0 0 15px;
+  padding: 0 0 0 0;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
 #turtle-image {
 	text-align: center;
 	padding-top: 60px;
@@ -7,7 +22,7 @@ a.turtle {
   display: inline-block;
   height: 180px;
   width: 180px;
-  background: url(../images/turtle3.jpg) no-repeat; 
+  background: url(../images/turtle5.jpg) no-repeat; 
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
@@ -15,9 +30,8 @@ a.turtle {
   border: 1.5px solid grey;
 }
 
-a.turtle { background-position: -30px -20px; }
-a.turtle:hover { background-position: ; }
-a.turtle:active { background-position: ; }
+a.turtle { background-position: -90px -8px; }
+a.turtle:hover { background-position: -380px -10px; }
 
 #background {
   height: 30px;
@@ -68,8 +82,11 @@ a.turtle:active { background-position: ; }
 }
 
 a.buddy1 {
-  background: url(../images/buddy1.jpg) no-repeat;
+  background: url(../images/buddy6.jpg) no-repeat;
 }
+
+a.buddy1 { background-position: -1px -10px ; }
+a.buddy1:hover { background-position: -147px 1px ; }
 
 a.bari1 {
   background: url(../images/Bari1.jpg) no-repeat;
@@ -77,15 +94,20 @@ a.bari1 {
 
 a.foodicon1 {
   background: url(../images/foodicon1.jpg) no-repeat;
+  background-position: 0px -30px;
 } 
 
 a.shadow1 {
   background: url(../images/shadow.jpg) no-repeat;
+  background-position: 0px -40px;
 } 
 
 a.me {
-  background: url(../images/shane.jpg) no-repeat;
+  background: url(../images/shane5.jpg) no-repeat;
 }
+
+a.me { background-position: ; }
+a.me:hover { background-position: -150px 1px ; }
 
 #background2 {
   height: 30px;

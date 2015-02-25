@@ -17,14 +17,40 @@ body {
   margin: 0;
 }
 
-.shane {
-  color: rgb(58, 24, 53);
-  text-decoration: none;
-  cursor: auto;
-  font-size: 4em;
-  font-family: 'Playfair Display', serif;;
-  margin-bottom: 10px;
-  border-bottom: 20px double rgb(81, 80, 67);
+.sh-back1 {
+  background: rgb(42, 125, 144);
+  text-align: center;
+  border-bottom: 10px double white;
+  border-top: 2px solid white;
+}
+
+.sh1 {
+  font-size: 90px;
+  margin: 5px 0 0 0;
+  padding: 5px 0 0 0;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a.my-face {
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 1px solid rgb(125, 125, 119);
+  background-position: 0 -40px ;
+}
+
+#my-face {
+ text-align: center;
+ margin: 20px 0 20px 0; 
+}
+
+.my-face {
+  background: url(../images/shane8.jpg) no-repeat;
 }
 
 h1 {
@@ -72,7 +98,7 @@ a.smiley-face {
 
 .color {
   background: rgb(2202,220,150);
-  padding: 20px 5px 30px 5px;
+  padding: 5px 5px 10px 5px;
   border-top: 6px solid rgb(246,196,195);
   /*position: absolute;
   bottom: 0;*/
@@ -115,23 +141,23 @@ footer {
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
-  border-radius: 30%;
+  border-radius: 10%;
 }
 
-a.fbook, a.twit, a.pterest {
-  background: url(../images/1013-icons-37.jpg) no-repeat;
-  z-index: 5;
+a.linkedin {
+  background: url(../images/linkedin-icon.jpg) no-repeat;
+}
+a.pterest {
+  background: url(../images/pinterest-icon.jpg) no-repeat;
 } 
+a.behance {
+  background: url(../images/behance-icon.jpg) no-repeat;
+}
+a.linkedin { background-position: 0px 0px; }
+a.pterest { background-position: 0px 0px; }
+a.behance { background-position: 0px 0px; }
 
-a.fbook { background-position: -199px -79px; }
-a.fbook:hover { background-position: -200px -132px; }
-a.fbook:active { background-position: -200px -240px; }
 
-a.twit { background-position: -35px -78px; }
-a.twit:hover { background-position: -35px -132px; }
-a.twit:active { background-position: -35px -241px; }
 
-a.pterest { background-position: -90px -78px; }
-a.pterest:hover { background-position: -92px -133px; }
-a.pterest:active { background-position: -92px -240px; }
+
 

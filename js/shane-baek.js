@@ -1,7 +1,7 @@
 $(function() {
 
 	$(".smiley-face").click(function(event) {
-		$(".shane").toggleClass("smile-change-color");
+		$(".sh1").toggleClass("smile-change-color");
 		$(this).toggleClass("smile-change-face");
 		event.preventDefault();
 	});

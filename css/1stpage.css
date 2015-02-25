@@ -7,7 +7,7 @@ a.turtle {
   display: inline-block;
   height: 180px;
   width: 180px;
-  background: url(../images/turtle3.jpg) no-repeat; 
+  background: url(../images/turtle5.jpg) no-repeat; 
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
@@ -20,7 +20,6 @@ h2 {
   font-weight: 100;
 }
 
-
-a.turtle { background-position: -30px -20px; }
-a.turtle:hover { background-position: px px; }
+a.turtle { background-position: -90px -10px; }
+a.turtle:hover { background-position: -380px -17px; }
 a.turtle:active { background-position: px px; }
