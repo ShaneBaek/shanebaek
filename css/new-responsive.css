@@ -1,0 +1,79 @@
+@media only screen and (min-width: 1400px) {
+  .main-image {
+  width: 95%;
+  height: 500px;
+  display: inline-block;
+  background: url(../images/main4.jpg) no-repeat;
+  text-align: center;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  }
+
+  a.main-image {
+  border: 5px solid white;
+  width: 1400px;
+  height: 524px;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .main-image {
+  width: 95%;
+  height: 500px;
+  display: inline-block;
+  background: url(../images/main2.jpg) no-repeat;
+  text-align: center;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  }
+ 
+  a.main-image {
+  border: 5px solid white;
+  width: 865px;
+  height: 324px;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .main-image {
+  width: 95%;
+  height: 500px;
+  display: inline-block;
+  background: url(../images/main1.jpg) no-repeat;
+  text-align: center;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  }
+ 
+  a.main-image {
+  border: 5px solid white;
+  width: 565px;
+  height: 212px;
+  }
+}
+
+@media only screen and (max-width: 676px) {
+  div .wrapper a.exper p {
+  font-size: 0.8em;
+  }
+  
+  h3 {
+  font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .menubar a.menu-icon {
+  display: none;
+  }
+}
+
+
+
+
+
+
+
