@@ -194,6 +194,9 @@ h3 {
   border: 1px solid black;
   float: left;
   margin: 3px;
+  background-color: rgb(36, 98, 120);
+  background: url(../images/turtle5.jpg);
+  background-position: -40px 0;
 }
 
 .Foodicon {
@@ -202,6 +205,7 @@ h3 {
   border: 1px solid black;
   float: left;
   margin: 3px;
+  background-color: rgb(126, 48, 63);
 }
 
 .Francis {
@@ -210,10 +214,11 @@ h3 {
   border: 1px solid black;
   float: left;
   margin: 3px;
+  background-color: rgb(185, 120, 53);
 }
 
 .config {
-  margin-top: -18px;
+  margin-top: -19px;
 }
 
 .Bari {
@@ -222,6 +227,7 @@ h3 {
   border: 1px solid black;
   float: left;
   margin: 3px;
+  background-color: rgb(191, 61, 53);
 }
 
 .Shadow {
@@ -230,6 +236,9 @@ h3 {
   border: 1px solid black;
   float: left;
   margin: 3px;
+  background-color: rgb(84, 135, 62);
+  background: url(../images/tea-series.jpg);
+  background-position: 0 -67px;
 }
 
 .Q1 {
@@ -238,6 +247,7 @@ h3 {
   border: 1px solid black;
   float: left;
   margin: 3px;
+  background-color: rgb(78, 44, 92);
 }
 
 .Q2 {
@@ -246,6 +256,7 @@ h3 {
   border: 1px solid black;
   float: left;
   margin: 3px;
+  background-color: rgb(62, 153, 126);
 }
 
 .Q3 {
@@ -254,6 +265,7 @@ h3 {
   border: 1px solid black;
   float: left;
   margin: 3px;
+  background-color: rgb(60, 83, 99);
 }
 
 .Q4 {
@@ -262,6 +274,9 @@ h3 {
   border: 1px solid black;
   float: left;
   margin: 3px;
+  background-color: rgb(54, 88, 101);
+  background: url(../images/buddy2.jpg);
+  background-position: 0 -67px;
 }
 
 .about-me {
