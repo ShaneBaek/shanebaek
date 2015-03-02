@@ -1,0 +1,303 @@
+.sh-back1 {
+  background: white;
+  text-align: center;
+  border-bottom: 10px double white;
+  border-top: 2px solid white;
+}
+
+.sh1 {
+  font-size: 4em;
+  margin: 5px 0 0 0;
+  padding: 5px 0 0 0;
+  color: rgb(42, 125, 144);
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  color: white;
+  margin-top: 0;
+}
+
+p {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.menubar a.menu-icon {
+  display: none;
+}
+
+.smile-change-color {
+  color: rgb(82,93,117);
+}
+
+a.smiley-face.smile-change-face {
+  background-position: 0 -44px;
+}
+
+.smiley-face {  
+  border-radius: 50%;
+  z-index: 4;  
+}
+
+a.smiley-face {
+  display: block;
+  height: 50px;
+  width: 50px;
+  background: url(../images/smiley-face.jpg) no-repeat; 
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+/*////// Social //////*/
+#social {
+  position: absolute;
+  top: 80px;
+  right: 5px;
+  width: 240px;
+  z-index: 2;
+}
+
+#social a {
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  border-radius: 10%;
+}
+
+a.linkedin {
+  background: url(../images/linkedin-icon.jpg) no-repeat;
+}
+a.pterest {
+  background: url(../images/pinterest-icon.jpg) no-repeat;
+} 
+a.behance {
+  background: url(../images/behance-icon.jpg) no-repeat;
+}
+a.linkedin { background-position: 0px 0px; }
+a.pterest { background-position: 0px 0px; }
+a.behance { background-position: 0px 0px; }
+
+#social {
+   display: none;
+  }
+
+ .menubar a.menu-icon {
+  display: block;
+  float: right;
+  font-size: 3em;
+  margin-right: 60px;
+  margin-top: -82px;
+  width: auto;
+  z-index: 8;
+  color: rgb(42, 125, 144);
+  }
+
+  #social a {
+  clear: both;
+  margin-top: 50px;
+ }
+
+
+.mi {
+  text-align: center;
+  background-color: rgb(4, 125, 144);
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.main-image {
+  width: 95%;
+  height: 500px;
+  border: 2px solid white;
+  display: inline-block;
+}
+
+div.wrapper {
+  display: block;
+  clear: both;
+  width: 1000px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.wrapper p {
+  font-size: 1.3em;
+}
+
+.edu {
+  display: block;
+  float: left;
+  width: 32%;
+  height: 600px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(42, 125, 144);
+  text-align: center;
+  padding: 10px 5px 5px 5px;
+}
+
+.exper {
+  display: block;
+  float: left;
+  width: 32%;
+  height: 600px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(42, 125, 144);
+  text-align: center;
+  padding: 10px 5px 5px 5px;
+}
+
+.pro {
+  display: block;
+  float: left;
+  width: 32%;
+  height: 600px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(42, 125, 144);
+  text-align: center;
+  padding: 10px 5px 5px 5px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 2em;
+}
+
+#projects {
+  border-top: 2px solid rgb(42, 125, 144);
+  width: 98.3%;
+  height: 550px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(42, 125, 144);
+  text-align: center;
+  padding-bottom: 300px;
+  margin-top: 600px;
+}
+
+.box {
+  text-align: center;
+  display: inline-block;
+}
+
+.Buddy {
+  width: 200px ;
+  height: 200px ;
+  border: 1px solid black;
+  float: left;
+  margin: 3px;
+}
+
+.Foodicon {
+  width: 200px ;
+  height: 200px ;
+  border: 1px solid black;
+  float: left;
+  margin: 3px;
+}
+
+.Francis {
+  width: 200px ;
+  height: 200px ;
+  border: 1px solid black;
+  float: left;
+  margin: 3px;
+}
+
+.config {
+  margin-top: -18px;
+}
+
+.Bari {
+  width: 200px ;
+  height: 200px ;
+  border: 1px solid black;
+  float: left;
+  margin: 3px;
+}
+
+.Shadow {
+  width: 200px;
+  height: 200px ;
+  border: 1px solid black;
+  float: left;
+  margin: 3px;
+}
+
+.Q1 {
+  width: 200px ;
+  height: 200px ;
+  border: 1px solid black;
+  float: left;
+  margin: 3px;
+}
+
+.Q2 {
+  width: 200px ;
+  height: 200px ;
+  border: 1px solid black;
+  float: left;
+  margin: 3px;
+}
+
+.Q3 {
+  width: 200px ;
+  height: 200px ;
+  border: 1px solid black;
+  float: left;
+  margin: 3px;
+}
+
+.Q4 {
+  width: 200px ;
+  height: 200px ;
+  border: 1px solid black;
+  float: left;
+  margin: 3px;
+}
+
+.about-me {
+  border-top: 2px solid rgb(42, 125, 144);
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(42, 125, 144);
+  text-align: center;
+  padding-bottom: 300px;
+}
+
+.about-me img {
+  float: left;
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.about-me p {
+  text-align: left;
+  display: inline-block;
+  margin-top: 0;
+  width: 45%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

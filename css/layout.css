@@ -18,17 +18,17 @@ body {
 }
 
 .sh-back1 {
-  background: rgb(42, 125, 144);
+  background: white;
   text-align: center;
   border-bottom: 10px double white;
   border-top: 2px solid white;
 }
 
 .sh1 {
-  font-size: 90px;
+  font-size: 4em;
   margin: 5px 0 0 0;
   padding: 5px 0 0 0;
-  color: white;
+  color: rgb(42, 125, 144);
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -156,6 +156,96 @@ a.behance {
 a.linkedin { background-position: 0px 0px; }
 a.pterest { background-position: 0px 0px; }
 a.behance { background-position: 0px 0px; }
+
+.mi {
+  text-align: center;
+  background-color: rgb(4, 125, 144);
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.main-image {
+  width: 95%;
+  height: 500px;
+  border: 2px solid white;
+  display: inline-block;
+}
+
+div.wrapper {
+  display: block;
+  clear: both;
+  width: 1000px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.wrapper p {
+  font-size: 1.3em;
+}
+
+.edu {
+  display: block;
+  float: left;
+  width: 32%;
+  height: 600px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(42, 125, 144);
+  text-align: center;
+  padding: 10px 5px 25px 5px;
+}
+
+.exper {
+  display: block;
+  float: left;
+  width: 32%;
+  height: 600px;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 0.5%;
+  color: rgb(42, 125, 144);
+  text-align: center;
+  padding: 10px 5px 25px 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.pro {
+  display: block;
+  float: left;
+  width: 32%;
+  height: 600px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 0.5%;
+  color: rgb(42, 125, 144);
+  text-align: center;
+  padding: 10px 5px 25px 5px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 2em;
+}
+
+.projects {
+  border-top: 2px double rgb(42, 125, 144);
+  border-bottom: 2px double rgb(42, 125, 144);
+
+}
+
+
+
+.about-me {
+  display: block;
+}
+
+
+
+
+
+
 
 
 

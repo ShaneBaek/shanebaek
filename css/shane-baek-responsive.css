@@ -111,16 +111,16 @@
   display: block;
   float: right;
   font-size: 3em;
-  margin-right: 40px;
-  margin-top: -90px;
+  margin-right: 60px;
+  margin-top: -82px;
   width: auto;
   z-index: 8;
-  color: white;
+  color: rgb(42, 125, 144);
   }
 
   #social a {
   clear: both;
-  margin-top: 90px;
+  margin-top: 50px;
  }
 }
 
