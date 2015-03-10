@@ -1,18 +1,3 @@
-.sh-back1 {
-  background: white;
-  text-align: center;
-  border-bottom: 10px double white;
-  border-top: 2px solid white;
-}
-
-.sh1 {
-  font-size: 4em;
-  margin: 5px 0 0 0;
-  padding: 5px 0 0 0;
-  color: rgb(42, 125, 144);
-  font-family: 'Montserrat', sans-serif;
-}
-
 a {
   text-decoration: none;
 }
@@ -27,12 +12,27 @@ p {
   margin: 0;
 }
 
+.sh-back1 {
+  background: white;
+  text-align: left;
+}
+
+.sh1 {
+  font-size: 2em;
+  margin: 5px 0 0 0;
+  padding: 5px 0 10px 100px;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
 .menubar a.menu-icon {
   display: none;
+  padding-right: 50px;
+  padding-top: 20px;
 }
 
 .smile-change-color {
-  color: rgb(82,93,117);
+  color: rgb(159,37,33);
 }
 
 a.smiley-face.smile-change-face {
@@ -99,7 +99,7 @@ a.behance { background-position: 0px 0px; }
   margin-top: -75px;
   width: auto;
   z-index: 8;
-  color: rgb(42, 125, 144);
+  color: black;
   }
 
   #social a {
@@ -110,16 +110,14 @@ a.behance { background-position: 0px 0px; }
 
 .mi {
   text-align: center;
-  background-color: rgb(4, 125, 144);
-  padding-bottom: 40px;
-  padding-top: 40px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  width: 100%;
 }
 
 .main-image {
-  width: 95%;
-  height: 500px;
   display: inline-block;
-  background: url(../images/main3.jpg) no-repeat;
+  background: url(../images/maincali.jpg) no-repeat;
   text-align: center;
   overflow: hidden;
   text-indent: 100%;
@@ -127,9 +125,8 @@ a.behance { background-position: 0px 0px; }
 }
 
 a.main-image {
-  border: 5px solid white;
-  width: 1214px;
-  height: 454px;
+  width: 900px;
+  height: 675px;
 }
 
 div.wrapper {
@@ -138,6 +135,7 @@ div.wrapper {
   width: 1000px;
   margin: 0 auto;
   background: #fff;
+  padding-bottom: 100px;
 }
 
 .wrapper p {
@@ -150,7 +148,7 @@ div.wrapper {
   width: 32%;
   height: 600px;
   font-family: 'Montserrat', sans-serif;
-  color: rgb(42, 125, 144);
+  color: black;
   text-align: center;
   padding: 10px 5px 5px 5px;
 }
@@ -161,7 +159,7 @@ div.wrapper {
   width: 32%;
   height: 600px;
   font-family: 'Montserrat', sans-serif;
-  color: rgb(42, 125, 144);
+  color: black;
   text-align: center;
   padding: 10px 5px 5px 5px;
 }
@@ -172,7 +170,7 @@ div.wrapper {
   width: 32%;
   height: 600px;
   font-family: 'Montserrat', sans-serif;
-  color: rgb(42, 125, 144);
+  color: black;
   text-align: center;
   padding: 10px 5px 5px 5px;
 }
@@ -187,7 +185,7 @@ h3 {
   width: 98.3%;
   height: 550px;
   font-family: 'Montserrat', sans-serif;
-  color: rgb(42, 125, 144);
+  color: black;
   text-align: center;
   padding-bottom: 300px;
   margin-top: 600px;
@@ -266,7 +264,9 @@ h3 {
   border: 1px solid black;
   float: left;
   margin: 3px;
+  background: url(../images/tiger9.jpg) no-repeat;
   background-color: rgb(62, 153, 126);
+  background-position: -50px -13px;
 }
 
 .Q3 {
@@ -292,7 +292,7 @@ h3 {
 .about-me {
   border-top: 2px solid rgb(42, 125, 144);
   font-family: 'Montserrat', sans-serif;
-  color: rgb(42, 125, 144);
+  color: black;
   text-align: center;
   padding-bottom: 100px;
 }

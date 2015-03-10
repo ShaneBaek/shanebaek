@@ -3,7 +3,7 @@
   width: 95%;
   height: 500px;
   display: inline-block;
-  background: url(../images/main4.jpg) no-repeat;
+ /* background: url(../images/main4.jpg) no-repeat;*/
   text-align: center;
   overflow: hidden;
   text-indent: 100%;
@@ -22,7 +22,7 @@
   width: 95%;
   height: 500px;
   display: inline-block;
-  background: url(../images/main2.jpg) no-repeat;
+ /* background: url(../images/main2.jpg) no-repeat;*/
   text-align: center;
   overflow: hidden;
   text-indent: 100%;
@@ -41,7 +41,7 @@
   width: 95%;
   height: 500px;
   display: inline-block;
-  background: url(../images/main1.jpg) no-repeat;
+  /*background: url(../images/main1.jpg) no-repeat;*/
   text-align: center;
   overflow: hidden;
   text-indent: 100%;
@@ -56,12 +56,13 @@
 }
 
 @media only screen and (max-width: 676px) {
+  
   div .wrapper a.exper p {
   font-size: 0.8em;
   }
   
   h3 {
-  font-size: 1em;
+  font-size: 1.3em;
   }
 }
 
